@@ -11,9 +11,6 @@ def dataset_import():
     return df_raw
 
 
-df_raw = dataset_import()
-
-
 def data_modeling(df_raw):
     df_edited = df_raw.dropna(subset=["Valuation", "Funding"])
     df_edited = df_edited[~df_edited["Funding"].str.contains("n")].copy()
