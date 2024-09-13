@@ -112,13 +112,13 @@ def plot_value_creation_by_industry(df_edited, save_dir):
 
 
 # Step 4: Call the functions to load and process the data
-df_raw = dataset_import()
-df_edited = data_modeling(df_raw)
+df_raw_o = dataset_import()
+df_edited_o = data_modeling(df_raw_o)
 
 # Step 5: Calculate and print the standard deviation of value_creation
-std_value_creation = calculate_std_value_creation(df_edited)
+std_value_creation = calculate_std_value_creation(df_edited_o)
 print("Standard Deviation of Value Creation (in billions):", std_value_creation)
 
 # Step 6: Plot the unique boxplot for value_creation by industry and save it to the specified directory
 save_directory = r"C:/Users/chris/Downloads/IDS706/chris_moriera_valuecreation_pandas/"
-plot_value_creation_by_industry(df_edited, save_directory)
+plot_value_creation_by_industry(df_edited_o, save_directory)
