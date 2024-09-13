@@ -14,3 +14,6 @@ Continent: Continent the company was founded in
 Year Founded: Year the company was founded
 Funding: Total amount raised across all funding rounds in billions (B) or millions (M) of dollars
 Select Investors: Top 4 investing firms or individual investors (some have less than 4)
+
+![name](.png)
+[name]{.png}
