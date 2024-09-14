@@ -6,8 +6,12 @@ import os
 
 
 # Step 1: Define the functions
-def dataset_import():
-    df_raw = pd.read_csv(r"C:\Users\chris\Downloads\IDS706\Unicorn_Companies.csv")
+
+
+def dataset_import(file_path=None):
+    if file_path is None:
+        file_path = r"C:\Users\chris\Downloads\IDS706\chris_moriera_valuecreation_pandas\Unicorn_Companies.csv"
+    df_raw = pd.read_csv(file_path)
     return df_raw
 
 

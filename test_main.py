@@ -10,7 +10,11 @@ from main import (
 
 
 def test_import():
-    df = dataset_import()
+    # Use a relative path to a test file
+    test_file_path = os.path.join(
+        os.path.dirname(__file__), "test_data", "unicorn_companies.csv"
+    )
+    df = dataset_import(test_file_path)
     assert df is not None, "Data import failed, the dataframe is None"
     assert not df.empty, "Data import failed, the dataframe is empty"
     print("test_import passed!")
