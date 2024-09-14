@@ -10,7 +10,6 @@ from main import (
 
 
 def test_import():
-    # Use a relative path to a test file
     test_file_path = os.path.join(
         os.path.dirname(__file__), "test_data", "unicorn_companies.csv"
     )

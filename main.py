@@ -10,7 +10,10 @@ import os
 
 def dataset_import(file_path=None):
     if file_path is None:
-        file_path = r"C:\Users\chris\Downloads\IDS706\chris_moriera_valuecreation_pandas\unicorn_companies.csv"
+        # Use a relative path to the test_data folder
+        file_path = os.path.join(
+            os.path.dirname(__file__), "test_data", "unicorn_companies.csv"
+        )
     df_raw = pd.read_csv(file_path)
     return df_raw
 
