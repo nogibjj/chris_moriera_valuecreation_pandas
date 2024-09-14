@@ -1,7 +1,6 @@
 # chris_moreira_mini_project_IDS720
 
-[![CI by Chris](https://github.com/nogibjj/chris_moreira_mini_project_IDS706/actions/workflows/hello.yml/badge.svg)](https://github.com/nogibjj/chris_moreira_mini_project_IDS706/actions/workflows/hello.yml)
-
+[![CI by Chris](https://github.com/nogibjj/chris_moriera_valuecreation_pandas/actions/workflows/hello.yml/badge.svg)](https://github.com/nogibjj/chris_moriera_valuecreation_pandas/actions/workflows/hello.yml)
 
 Field: Description
 Company: Company name
