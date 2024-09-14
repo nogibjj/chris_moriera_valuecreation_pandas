@@ -81,19 +81,16 @@ def plot_value_creation_by_industry(df_edited, save_dir):
     plt.figure(figsize=(12, 8))
 
     # Create a vibrant custom color palette
-    unique_industries = df_edited["Industry"].nunique()  # number of unique industries
-    custom_palette = sns.color_palette(
-        "Spectral", unique_industries
-    )  # 'Spectral' gives a nice gradient effect
+    unique_industries = df_edited["Industry"].nunique()
+    custom_palette = sns.color_palette("Spectral", unique_industries)
 
-    # Create the boxplot with the custom palette, assigning 'Industry' to `hue`
+    # Create the boxplot with 'Industry' assigned to hue
     sns.boxplot(
         x="Industry",
         y="value_creation",
         data=df_edited,
-        hue="Industry",
         palette=custom_palette,
-        legend=False,
+        hue="Industry",
     )
 
     # Set title and labels
