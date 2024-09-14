@@ -13,6 +13,9 @@ def dataset_import():
 
 def data_modeling(df_raw):
     df_edited = df_raw.dropna(subset=["Valuation", "Funding"])
+    df_edited["Funding"] = df_edited["Funding"].astype(
+        str
+    )  # Ensure Funding is treated as a string
     df_edited = df_edited[~df_edited["Funding"].str.contains("n")].copy()
 
     # Clean up the dollar sign and extract unit
