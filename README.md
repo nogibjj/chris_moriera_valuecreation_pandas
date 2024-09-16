@@ -1,7 +1,6 @@
 # chris_moreira_mini_project_IDS720
 
-[![CI by Chris](https://github.com/nogibjj/chris_moreira_mini_project_IDS706/actions/workflows/hello.yml/badge.svg)](https://github.com/nogibjj/chris_moreira_mini_project_IDS706/actions/workflows/hello.yml)
-
+[![CI by Chris](https://github.com/nogibjj/chris_moriera_valuecreation_pandas/actions/workflows/hello.yml/badge.svg)](https://github.com/nogibjj/chris_moriera_valuecreation_pandas/actions/workflows/hello.yml)
 
 << Data Description for all variables in my Dataset >>
 Company: Company name
@@ -15,6 +14,7 @@ Year Founded: Year the company was founded
 Funding: Total amount raised across all funding rounds in billions (B) or millions (M) of dollars
 Select Investors: Top 4 investing firms or individual investors (some have less than 4)
 
+<<<<<<< HEAD
 << Objective of Project >>
 - Input: csv file 
 - Output: working & tested function that produces the chart below & statistics pertinent to the variability of value creation in my dataset
@@ -31,3 +31,6 @@ Note that this computed the variability of value creation for each industry pres
 Mean of Value Creation (in billions): 2.921073446327684
 Median of Value Creation (in billions): 1.524
 Standard Deviation of Value Creation (in billions): 8.133136697911187
+=======
+![alt text](value_creation_boxplot.png)
+>>>>>>> c3a0168712df93493226d46e672c86e01455a4ab
