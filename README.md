@@ -2,6 +2,7 @@
 
 [![CI by Chris](https://github.com/nogibjj/chris_moriera_valuecreation_pandas/actions/workflows/hello.yml/badge.svg)](https://github.com/nogibjj/chris_moriera_valuecreation_pandas/actions/workflows/hello.yml)
 
+
 << Data Description for all variables in my Dataset >>
 Company: Company name
 Valuation: Company valuation in billions (B) of dollars
