@@ -1,4 +1,4 @@
-# chris_moreira_mini_project_IDS720
+# Value Creation Assessment by Industry (Chris Moreira)
 
 [![CI by Chris](https://github.com/nogibjj/chris_moriera_valuecreation_pandas/actions/workflows/hello.yml/badge.svg)](https://github.com/nogibjj/chris_moriera_valuecreation_pandas/actions/workflows/hello.yml)
 
