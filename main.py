@@ -110,14 +110,13 @@ def plot_value_creation_by_industry(df_edited, save_dir):
 
     # Show the plot
     plt.tight_layout()
-
+    plt.ylim(0, 30)
     # Ensure the directory exists, and save the plot
     if not os.path.exists(save_dir):
         os.makedirs(save_dir)
 
     plot_path = os.path.join(save_dir, "value_creation_boxplot.png")
     plt.savefig(plot_path)
-    plt.ylim(0, 30)
     plt.show()
 
     print(f"Plot saved to: {plot_path}")
