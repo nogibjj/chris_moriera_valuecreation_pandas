@@ -94,9 +94,13 @@ def plot_value_creation_by_industry(df_edited, save_dir):
     )
 
     # Set title and labels
-    plt.title("Value Creation Variability per Industry", fontsize=16, fontweight="bold")
+    plt.title(
+        "Value Creation(in U$D) Variability per Industry",
+        fontsize=16,
+        fontweight="bold",
+    )
     plt.xlabel("Industry", fontsize=14)
-    plt.ylabel("Value Creation (in Billions)", fontsize=14)
+    plt.ylabel("Value Creation (in Billions of U$D)", fontsize=14)
 
     # Rotate the x-axis labels for better readability
     plt.xticks(rotation=45, ha="right")
@@ -113,6 +117,7 @@ def plot_value_creation_by_industry(df_edited, save_dir):
 
     plot_path = os.path.join(save_dir, "value_creation_boxplot.png")
     plt.savefig(plot_path)
+    plt.ylim(0, 30)
     plt.show()
 
     print(f"Plot saved to: {plot_path}")
